@@ -42,17 +42,46 @@ bash
 Copy
 Edit
 
-Scan a single JS URL with output and save keys
+## 📦 Installation
+### bash
+```
+git clone https://github.com/Red-Eye999/api_key_finder
+cd api_key_finder
+chmod +x api_key_finder.py
+pip install -r requirements.txt
+```
+### scanning single a URL
+Scan a single JS URL with output and save keys in text files
+```
 python3 api_key_finder.py -u <url> -e
-
-Scan a list of URLs silently (save keys only)
-python3 api_key_finder.py -l <file.txt> -e --silence
+```
+Scan a single of URL silently (save keys only)
+```
+python3 api_key_finder.py -u <url> -e --silence
+```
+Scan a single JS URL with output only
+```
+python3 api_key_finder.py -u <url>
+```
+### scanning multiple JS URLs
+Scan a list JS URLs with output and save keys in text files
+```
+python3 api_key_finder.py -l <TEXT_FILE.txt> -e
+```
+Scan a list JS URLs silently (save keys only)
+```
+python3 api_key_finder.py -l <TEXT_FILE.txt> -e --silence
+```
+Scan a list JS URLs with output only
+```
+python3 api_key_finder.py -l <TEXT_FILE.txt>
+```
 
 ## Requirements
 Python 3
 
 # Bought me a coffee 😇
-## Bitcoin BTC Network
+### Bitcoin BTC Network
 1G8tWgr1uwraMiG3X3bHwZFg8VNiWhcR74
 
 
