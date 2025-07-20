@@ -45,7 +45,7 @@ Edit
 ## 📦 Installation
 ### bash
 ```
-git clone https://github.com/Red-Eye999/api_key_finder
+git clone https://github.com/Red-Eye999/api_key_finder.git
 cd api_key_finder
 chmod +x api_key_finder.py
 pip install -r requirements.txt
